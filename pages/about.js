@@ -1,11 +1,12 @@
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const About = () => {
   return (
-        <div>
+        <Layout
+          pageTitle='About'
+        >
             <h1>About Us</h1>
-            <Link href='/'>Home</Link>
-        </div>
+        </Layout>
   );
 }
 
